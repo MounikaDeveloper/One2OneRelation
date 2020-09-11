@@ -1,0 +1,7 @@
+{% for x in data %}
+AccNo:{{ x.accno}}-------
+    IFSC:{{ x.ifsc }}----------
+  branch:  {{ x.branch }}-----
+    Name:{{ x.emp.name }}-----
+    ID:{{ x.emp_id}}<br>
+{% endfor %}
